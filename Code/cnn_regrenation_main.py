@@ -12,6 +12,7 @@ from torch.autograd import Variable
 from Model.cnn_regression_model import model_test
 from Model.ResNet import model
 from tensorboardX import SummaryWriter
+import os
 # ------------------------------------------------------------------------------
 # check if CUDA is available
 train_on_gpu = torch.cuda.is_available()
@@ -37,7 +38,8 @@ transform = transforms.Compose([
 ])
 
 # step2: 数据
-split_set = split_set('Data\First\Box_data', train_size=0.85)
+current = os.getcwd()
+split_set = split_set(os.path.join(current, 'Data\First\Box_data'), train_size=0.85)
 train_data, valid_data = split_set.get_data()
 train_set = data_set(train_data,  transforms=transform)
 valid_set = data_set(valid_data, transforms=transform)
