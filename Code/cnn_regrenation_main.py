@@ -37,7 +37,7 @@ transform = transforms.Compose([
 ])
 
 # step2: 数据
-split_set = split_set('D:\Project_Data\First\Box_data', train_size=0.85)
+split_set = split_set('Data\First\Box_data', train_size=0.85)
 train_data, valid_data = split_set.get_data()
 train_set = data_set(train_data,  transforms=transform)
 valid_set = data_set(valid_data, transforms=transform)
@@ -65,7 +65,6 @@ if train_on_gpu:  # move tensors to GPU if CUDA is available
 loss_func = nn.MSELoss()
 # specify optimizer
 optimizer = optim.Adam(model.parameters(), lr=opt.lr)
-#scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=30, gamma=0.3)
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer,
                                      mode='min',  # 检测指标
                                      factor=0.75,  # 学习率调整倍数
