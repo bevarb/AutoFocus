@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="210de052-7b7b-45e2-acaa-ed34347d1614" name="Default Changelist" comment="change data2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_regrenation_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn_regrenation_main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,6 +188,7 @@
       <workItem from="1586164599701" duration="43972000" />
       <workItem from="1586777625526" duration="1218000" />
       <workItem from="1586964718510" duration="1487000" />
+      <workItem from="1586966272263" duration="1663000" />
     </task>
     <task id="LOCAL-00001" summary="change data">
       <created>1586965854684</created>
@@ -243,7 +245,9 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -268,7 +272,7 @@
     <SUITE FILE_PATH="coverage/easy$order_file.coverage" NAME="order_file Coverage Results" MODIFIED="1586178502549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre_treatment" />
     <SUITE FILE_PATH="coverage/easy$main.coverage" NAME="main Coverage Results" MODIFIED="1586322316739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualize" />
     <SUITE FILE_PATH="coverage/easy$cnn.coverage" NAME="cnn Coverage Results" MODIFIED="1584894669695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Code$cnn_regrenation_main.coverage" NAME="cnn_regrenation_main Coverage Results" MODIFIED="1586965267183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$cnn_regrenation_main.coverage" NAME="cnn_regrenation_main Coverage Results" MODIFIED="1586967972945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1584715532470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../新建文件夹" />
     <SUITE FILE_PATH="coverage/easy$pytest_in_read_model_for_Test_py.coverage" NAME="pytest in read_model_for_Test.py Coverage Results" MODIFIED="1586103167033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$Change_name.coverage" NAME="Change_name Coverage Results" MODIFIED="1584717295756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
