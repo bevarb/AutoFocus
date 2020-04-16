@@ -33,7 +33,7 @@ class model_test(nn.Module):
             nn.MaxPool2d(2, 2),
 
             nn.Conv2d(128, 256, kernel_size=3, padding=1),
-            # nn.Conv2d(128, 128, kernel_size=3, padding=1),
+            nn.Conv2d(256, 256, kernel_size=1, padding=1),
             nn.BatchNorm2d(256),
             nn.ReLU(),
             nn.MaxPool2d(2, 2),
@@ -41,7 +41,7 @@ class model_test(nn.Module):
         )
         self.drop_blocks = nn.Sequential(
             nn.Dropout(0.5),
-            nn.Linear(256 * 4 * 4, 256 * 2),
+            nn.Linear(256 * 5 * 5, 256 * 2),
             nn.ReLU(),
             nn.Linear(256 * 2, 32),
             nn.ReLU(),
@@ -52,8 +52,8 @@ class model_test(nn.Module):
     def forward(self, x):
         # add sequence of convolutional and max pooling layers
         out = self.conv_blocks(x)
-       # print('out.shape', out.shape)
-        out = out.view(-1, 256 * 4 * 4)
+        # print('out.shape', out.shape)
+        out = out.view(-1, 256 * 5 * 5)
         # print('out.shape', out.shape)
         y = self.drop_blocks(out)
         return y

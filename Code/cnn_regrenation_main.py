@@ -24,7 +24,7 @@ else:
 # ------------------------------------------------------------------------------
 parser = argparse.ArgumentParser()
 parser.add_argument("--n_epochs", type=int, default=1000, help="number of epochs of training")
-parser.add_argument("--batch_size", type=int, default=64, help="size of the batches")
+parser.add_argument("--batch_size", type=int, default=128, help="size of the batches")
 parser.add_argument("--lr", type=float, default=0.01, help="adam: learning rate")
 parser.add_argument("--img_size", type=int, default=224, help="size of each image dimension")
 opt = parser.parse_args()
@@ -51,15 +51,17 @@ valid_loader = DataLoader(valid_set, batch_size=opt.batch_size,
                                 )
 
 # step3: 创建模型
-# model = model_test()
 model = model_test()
+# model = model()
+# model = model.ResNet101()
 print(model)
 # dummy_input = torch.rand(64, 3, 128, 128)
 # with SummaryWriter(comment='CNN1') as w:
 #     w.add_graph(model, (dummy_input,))
 
 if train_on_gpu:  # move tensors to GPU if CUDA is available
-    model.cuda()
+    model = model.cuda()
+    # model = nn.DataParallel(model)
 # ------------------------------------------------------------------------------
 # specify loss function
 # criterion = nn.CrossEntropyLoss()
@@ -98,7 +100,9 @@ for epoch in range(1, opt.n_epochs + 1):
             data, target = data.cuda(), target.cuda()
         train_data, train_target = data, target
         optimizer.zero_grad()  # clear the gradients of all optimized variables
-        train_output = model(train_data)  # forward pass: compute predicted outputs by passing inputs to the model
+        # train_output = model(train_data)  # forward pass: compute predicted outputs by passing inputs to the model
+        # with torch.no_grad():
+        train_output = model(train_data)
         train_output = train_output.view(train_target.shape[0])
         #print(train_target.dtype)
         loss = loss_func(train_output.float(), train_target.float())  # calculate the batch loss
