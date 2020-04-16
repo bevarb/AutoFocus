@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="210de052-7b7b-45e2-acaa-ed34347d1614" name="Default Changelist" comment="change data2">
+    <list default="true" id="210de052-7b7b-45e2-acaa-ed34347d1614" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn_regrenation_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn_regrenation_main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cnn_regrenation_main">
+  <component name="RunManager" selected="Python.XML_2_TIF">
     <configuration name="XML_2_TIF" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="easy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.XML_2_TIF" />
         <item itemvalue="Python.cnn_regrenation_main" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.read_model_for_Test" />
         <item itemvalue="Python.order_file" />
-        <item itemvalue="Python.XML_2_TIF" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +187,8 @@
       <workItem from="1586164599701" duration="43972000" />
       <workItem from="1586777625526" duration="1218000" />
       <workItem from="1586964718510" duration="1487000" />
-      <workItem from="1586966272263" duration="1663000" />
+      <workItem from="1586966272263" duration="2356000" />
+      <workItem from="1587023990360" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="change data">
       <created>1586965854684</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586966041286</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change data3">
+      <created>1586968088767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586968088767</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +269,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change data" />
     <MESSAGE value="change data2" />
-    <option name="LAST_COMMIT_MESSAGE" value="change data2" />
+    <MESSAGE value="change data3" />
+    <option name="LAST_COMMIT_MESSAGE" value="change data3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/easy$read_model_for_Test.coverage" NAME="read_model_for_Test Coverage Results" MODIFIED="1586240070622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -274,6 +282,7 @@
     <SUITE FILE_PATH="coverage/easy$cnn.coverage" NAME="cnn Coverage Results" MODIFIED="1584894669695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Code$cnn_regrenation_main.coverage" NAME="cnn_regrenation_main Coverage Results" MODIFIED="1586967972945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1584715532470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../新建文件夹" />
+    <SUITE FILE_PATH="coverage/Code$XML_2_TIF.coverage" NAME="XML_2_TIF Coverage Results" MODIFIED="1587024212669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre_treatment" />
     <SUITE FILE_PATH="coverage/easy$pytest_in_read_model_for_Test_py.coverage" NAME="pytest in read_model_for_Test.py Coverage Results" MODIFIED="1586103167033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$Change_name.coverage" NAME="Change_name Coverage Results" MODIFIED="1584717295756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$plot_fig.coverage" NAME="plot_fig Coverage Results" MODIFIED="1586076614765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualize" />
