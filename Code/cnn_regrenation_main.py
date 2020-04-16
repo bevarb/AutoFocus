@@ -39,7 +39,7 @@ transform = transforms.Compose([
 
 # step2: 数据
 current = os.getcwd()
-split_set = split_set(os.path.join(current, 'Data\First\Box_data'), train_size=0.85)
+split_set = split_set(os.path.join(current, r'Data/First/Box_data'), train_size=0.85)
 train_data, valid_data = split_set.get_data()
 train_set = data_set(train_data,  transforms=transform)
 valid_set = data_set(valid_data, transforms=transform)
@@ -154,14 +154,14 @@ for epoch in range(1, opt.n_epochs + 1):
         print('Validation loss decreased ({:.6f} --> {:.6f}).  Saving model ...'.format(
             valid_loss_min,
             valid_loss))
-        name = time.strftime('checkpoints\\model_min_loss.pt')
+        name = time.strftime('checkpoints/model_min_loss.pt')
         torch.save(model.state_dict(), name)
         valid_loss_min = valid_loss
     elif valid_acc > valid_acc_max:
         print('Validation accuration increased ({:.6f} --> {:.6f}).  Saving model ...'.format(
             valid_acc_max,
             valid_acc))
-        name = time.strftime('checkpoints\\model_max_acc.pt')
+        name = time.strftime('checkpoints/model_max_acc.pt')
         torch.save(model.state_dict(), name)
         valid_acc_max = valid_acc
     # for i, (name, param) in enumerate(model.named_parameters()):

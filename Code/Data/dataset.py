@@ -22,7 +22,11 @@ class split_set():
             imgs_num.append(len(classes))
         for i in range(len(imgs_num)):
             # num = imgs_num[i]
-            num = 285
+            num = 0
+            if imgs_num[i] >= 300:
+                num = 300
+            else:
+                num = imgs_num[i]
             self.train_data.extend(imgs[i][: int(train_size * num)])
             self.valid_data.extend(imgs[i][int(train_size * num):num])
 
@@ -89,7 +93,7 @@ class data_set(data.Dataset):
                  2843.6,
                  2844.0]
         img_path = self.imgs[index]
-        index_tolabel = int(self.imgs[index].split('.')[-2].split("\\")[-2].split("_")[-1])
+        index_tolabel = int(self.imgs[index].split('.')[-2].split("/")[-2].split("_")[-1])
         label = label[index_tolabel] - 2837
         data = Image.open(img_path)
         data = self.transforms(data)
