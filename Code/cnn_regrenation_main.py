@@ -76,7 +76,7 @@ scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer,
                                      # threshold_mode='rel',
                                      cooldown=3,  # 冷却时间
                                      min_lr=0,   # 学习率下限
-                                     eps=1e-08   # 学习率衰减的最小值
+                                     eps=1e-07   # 学习率衰减的最小值
                                     )
 
 valid_loss_min = np.Inf  # track change in validation loss
