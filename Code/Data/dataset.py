@@ -2,7 +2,7 @@ import os
 from PIL import Image
 from torch.utils import data
 import numpy as np
-from torchvision import transforms as T
+import torchvision.transforms as transforms
 import random
 class split_set():
     def __init__(self, root, train_size):
@@ -54,23 +54,11 @@ class read_test():
 
 class data_set(data.Dataset):
     '''继承Dataset的数据加载类，读取图片、数据增强、返回图片及标签'''
-    def __init__(self, data, transforms=None):
-
+    def __init__(self, data, transforms=None, flag=None, T=None, step=None):
+        self.flag = flag
         self.imgs = data
-        if transforms is None:
-            # 数据转换操作，测试验证和训练的数据转换有所区别
-            normalize = T.Normalize(mean=[0.485, 0.456, 0.406],
-                                    std=[0.229, 0.224, 0.225])
-            self.transforms = T.Compose([
-                T.Scale(256),
-                T.RandomSizedCrop(256),
-                T.RandomHorizontalFlip(),
-                T.ToTensor(),
-                normalize
-            ])
-
-        else:
-            self.transforms = transforms
+        self.T, self.step = T, step
+        self.transforms = transforms
 
 
     def __getitem__(self, index):
@@ -92,16 +80,27 @@ class data_set(data.Dataset):
                  2843.0,
                  2843.6,
                  2844.0]
-        img_path = self.imgs[index]
-        index_tolabel = int(self.imgs[index].split('.')[-2].split("/")[-2].split("_")[-1])
-        label = label[index_tolabel] - 2837
-        data = Image.open(img_path)
-        data = self.transforms(data)
-        return data, label
+        if self.flag == "video":
+           # print(index)
+            data = Image.fromarray(self.imgs[index])
+            self.data = self.transforms(data)
+            i = index % self.T
+           # print(i)
+            self.label = i * self.step
+
+        else:
+            img_path = self.imgs[index]
+            # print(self.imgs[index].split('.'))
+            index_tolabel = int(self.imgs[index].split('.')[-2].split("\\")[-2].split("_")[-1])
+            self.label = label[index_tolabel] - 2837
+            data = Image.open(img_path)
+            self.data = self.transforms(data)
+        return self.data, self.label
 
     def __len__(self):
         '''
         返回数据集中所有图片的个数
         '''
         return len(self.imgs)
+
 

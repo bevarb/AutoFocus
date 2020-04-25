@@ -2,6 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="210de052-7b7b-45e2-acaa-ed34347d1614" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pre_treatment/video_pre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Second/m21top81_step300nmsubtractbng.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Second/m2top6_step200nm_subtractbng.avi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/cnn_regression_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/cnn_regression_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn_regrenation_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn_regrenation_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre.py" beforeDir="false" afterPath="$PROJECT_DIR$/pre.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_model_for_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_model_for_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualize/test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/visualize/test.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/visualize/video_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualize/video_process.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,29 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.XML_2_TIF">
-    <configuration name="XML_2_TIF" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="easy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pre_treatment" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pre_treatment/XML_2_TIF.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.video_process">
     <configuration name="cnn_regrenation_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="easy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +77,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pre" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="easy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,34 +85,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visualize" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualize/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="order_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="easy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pre_treatment" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pre_treatment/order_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pre.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,13 +121,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="video_pre" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="easy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pre_treatment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pre_treatment/video_pre.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="video_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="easy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visualize" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualize/video_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.XML_2_TIF" />
-        <item itemvalue="Python.cnn_regrenation_main" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.video_process" />
+        <item itemvalue="Python.pre" />
         <item itemvalue="Python.read_model_for_Test" />
-        <item itemvalue="Python.order_file" />
+        <item itemvalue="Python.video_pre" />
+        <item itemvalue="Python.cnn_regrenation_main" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +200,7 @@
       <workItem from="1586964718510" duration="1487000" />
       <workItem from="1586966272263" duration="2356000" />
       <workItem from="1587023990360" duration="571000" />
-      <workItem from="1587803212465" duration="344000" />
+      <workItem from="1587803212465" duration="16039000" />
     </task>
     <task id="LOCAL-00001" summary="change data">
       <created>1586965854684</created>
@@ -212,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586968088767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change data3">
+      <created>1587803561823</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587803561823</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,14 +294,17 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/easy$read_model_for_Test.coverage" NAME="read_model_for_Test Coverage Results" MODIFIED="1586240070622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$labelImg.coverage" NAME="labelImg Coverage Results" MODIFIED="1586101971359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/labelImg-master" />
+    <SUITE FILE_PATH="coverage/Code$video_pre.coverage" NAME="video_pre Coverage Results" MODIFIED="1587813913507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre_treatment" />
     <SUITE FILE_PATH="coverage/easy$pre.coverage" NAME="pre Coverage Results" MODIFIED="1584848981945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$cnn_regrenation_main.coverage" NAME="cnn_regrenation_main Coverage Results" MODIFIED="1586178576120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$read_model_for_Test.coverage" NAME="read_model_for_Test Coverage Results" MODIFIED="1587816374125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$order_file.coverage" NAME="order_file Coverage Results" MODIFIED="1586178502549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre_treatment" />
     <SUITE FILE_PATH="coverage/easy$main.coverage" NAME="main Coverage Results" MODIFIED="1586322316739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualize" />
     <SUITE FILE_PATH="coverage/easy$cnn.coverage" NAME="cnn Coverage Results" MODIFIED="1584894669695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Code$cnn_regrenation_main.coverage" NAME="cnn_regrenation_main Coverage Results" MODIFIED="1586967972945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$cnn_regrenation_main.coverage" NAME="cnn_regrenation_main Coverage Results" MODIFIED="1587808454413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$process_data.coverage" NAME="process_data Coverage Results" MODIFIED="1584715532470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../新建文件夹" />
     <SUITE FILE_PATH="coverage/Code$XML_2_TIF.coverage" NAME="XML_2_TIF Coverage Results" MODIFIED="1587024212669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pre_treatment" />
+    <SUITE FILE_PATH="coverage/Code$pre.coverage" NAME="pre Coverage Results" MODIFIED="1587820511877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$pytest_in_read_model_for_Test_py.coverage" NAME="pytest in read_model_for_Test.py Coverage Results" MODIFIED="1586103167033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$Change_name.coverage" NAME="Change_name Coverage Results" MODIFIED="1584717295756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/easy$plot_fig.coverage" NAME="plot_fig Coverage Results" MODIFIED="1586076614765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualize" />
@@ -294,5 +315,6 @@
     <SUITE FILE_PATH="coverage/easy$setup.coverage" NAME="setup Coverage Results" MODIFIED="1584673047017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../labelImg-master/labelImg-master" />
     <SUITE FILE_PATH="coverage/easy$test.coverage" NAME="test Coverage Results" MODIFIED="1586052359428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Model" />
     <SUITE FILE_PATH="coverage/easy$new.coverage" NAME="new Coverage Results" MODIFIED="1584842614762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$video_process.coverage" NAME="video_process Coverage Results" MODIFIED="1587821970941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualize" />
   </component>
 </project>

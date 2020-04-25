@@ -18,7 +18,7 @@ test_data = read_test.get_data()
 test_set = data_set(test_data, transforms=transform)
 test_loader = DataLoader(test_set, batch_size=test_set.__len__())
 model = model_test()
-model.load_state_dict(torch.load('checkpoints\\model_regression_19%.pt'))
+model.load_state_dict(torch.load('checkpoints\\model_regression_30%.pt'))
 model.eval()
 def test(test_loader):
     test_correct = 0
