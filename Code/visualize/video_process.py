@@ -31,7 +31,7 @@ rat, frame = videoCapture.read()
 Target = []
 right_num = 0
 model = model_test()
-model.load_state_dict(torch.load('../checkpoints/model_regression_30%.pt'))
+model.load_state_dict(torch.load('../checkpoints/model_min_loss.pt'))
 model.eval()
 while rat:
         input = transform(frame)
