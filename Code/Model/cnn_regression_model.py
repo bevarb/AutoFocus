@@ -33,7 +33,8 @@ class model_test(nn.Module):
             nn.MaxPool2d(2, 2),
 
             nn.Conv2d(128, 256, kernel_size=3, padding=1),
-            nn.Conv2d(256, 256, kernel_size=1, padding=1),
+            # nn.Conv2d(256, 256, kernel_size=1, padding=1),
+            # nn.Conv2d(256, 256, kernel_size=1, padding=1),
             nn.BatchNorm2d(256),
             nn.ReLU(),
             nn.MaxPool2d(2, 2),
